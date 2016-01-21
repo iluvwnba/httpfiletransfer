@@ -22,8 +22,8 @@ var server = http.createServer(function(req, res) {
 			}else{
 				res.writeHead(400);
 			}
+			res.end();
 		});	
   	})
-    res.end();
 });
 server.listen(8080);
